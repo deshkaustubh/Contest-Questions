@@ -1,6 +1,7 @@
 package org.example.codechef.solved
 
 //https://www.codechef.com/problems/SMLPAL
+//06 Jan 2025 wednesday codeChef contest
 
 // x = one's
 // y = two's

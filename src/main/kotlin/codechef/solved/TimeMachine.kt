@@ -1,6 +1,7 @@
 package org.example.codechef.solved
 
 //https://www.codechef.com/problems/TIMA
+//06 Jan wednesday codeChef contest
 
 fun main() {
     val x = readln().toInt()
