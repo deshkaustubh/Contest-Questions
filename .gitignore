@@ -43,3 +43,26 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+## Below files are my additions
+
+### Environment Configuration ###
+.env
+
+### Common ###
+*.swp
+*.swo
+*.bak
+
+### Python ###
+__pycache__/
+.python-version
+*.pyc
+.pytest_cache/
+.coverage
+
+### Java ###
+*.class
+
+### Logs ###
+*.log
