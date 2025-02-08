@@ -1,5 +1,6 @@
 package org.example.codechef.unsolved
 
+// https://www.codechef.com/problems/STKSTR
 fun main() {
     val t = readln().toInt()
     repeat(t) {
