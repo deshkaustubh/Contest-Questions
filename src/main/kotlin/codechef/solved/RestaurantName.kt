@@ -4,7 +4,7 @@ package org.example.codechef.solved
 
 // n -> length of name, all lowercase
 // a -> string, competitor
-// wants lexixographically larger than a both reverse and fwd
+// wants lexicographically larger than a both reverse and fwd
 
 import kotlin.random.Random
 
@@ -23,7 +23,7 @@ fun lexicographically(n: Int, a: String): String {
     var resultString = ""
     for(i in 0 until n) {
         val x = maxOf(a[i].toInt(), a[n-1-i].toInt())
-        resultString = resultString + (Random.nextInt(x,123)).toChar()
+        resultString += (Random.nextInt(x, 123)).toChar()
     }
     return resultString
 }
